@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home-main">
-        <div className="navbar">
+        <div className="navbar1">
           <Navbar />
         </div>
         <div className="profile">
@@ -23,7 +23,7 @@ const Home = () => {
           <Reteirement />
         </div>
       </div>
-      <div className="nav">
+      <div className="navbar2">
         <Navbar />
       </div>
     </div>

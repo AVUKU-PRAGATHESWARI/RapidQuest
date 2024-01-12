@@ -1,3 +1,31 @@
-.home-main{
-    display: flex;
+/* Default style for larger screens */
+.home-main {
+  display: flex;
+}
+
+/* Style for small screens */
+@media (max-width: 768px) {
+  .navbar1 {
+    display: none;
+  }
+
+  .home-main {
+    flex-direction: column;
+  }
+
+  .navbar2 {
+    display: block; /* Ensure navbar2 is visible on small screens */
+  }
+}
+
+/* Style for large screens */
+@media (min-width: 769px) {
+  .navbar2 {
+    display: none;
+  }
+
+  .home-main {
+    /* If you want to maintain the default flex-direction for larger screens, you can keep it as it is. */
+    flex-direction: row;
+  }
 }

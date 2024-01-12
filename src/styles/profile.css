@@ -6,6 +6,7 @@
 }
 
 .profile {
+  justify-content: center;
   display: flex;
   gap: 30px;
   align-items: center;
@@ -87,9 +88,8 @@
 .account {
   font-size: 0.9rem;
   font-weight: 500;
-
 }
 
-.date{
+.date {
   color: rgb(152, 141, 141);
 }
